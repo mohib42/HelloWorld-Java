@@ -1,4 +1,4 @@
-Step 1: Install Java (JDK)
+ Step 1: Install Java (JDK)
 
 1️⃣ Go to the Oracle JDK Download Page.
 2️⃣ Download the Windows x64 Installer for the latest LTS version.
