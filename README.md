@@ -1,23 +1,25 @@
- Step 1: Install Java (JDK)
+Step 1: Install Java (JDK)
 
-1️⃣ Go to the Oracle JDK Download Page.
-2️⃣ Download the Windows x64 Installer for the latest LTS version.
-3️⃣ Run the installer and follow the instructions to complete the installation.
+Go to the Oracle JDK Download Page.
 
-✅ Check Installation:
+Download the Windows x64 Installer for the latest LTS version.
+
+Run the installer and follow the instructions to complete the installation.
+
+Check Installation:
 Open Command Prompt and type:
 
 java --version
 
-Step 2: Create a Folder to Save Your Java Program
+Step 2: Create a Folder to Save My Java Program
 
-📁 Create a folder in any drive (for example, D: drive) and name it something like:
+Create a new folder, for example:
 
 D:\javaprogram
 
 Step 3: Write the Program
 
-✏️ Open Notepad (or any text editor) and write the following code:
+Open Notepad (or any text editor) and write the following code:
 
 public class testjava {
     public static void main(String[] args) {
@@ -26,33 +28,28 @@ public class testjava {
 }
 
 
-⚠️ Important: The file name must match the class name exactly.
-So save the file as:
+⚠️ Important:
+The file name must match the class name exactly → testjava.java
 
-testjava.java
+Step 4: Open Command Prompt and Navigate to My Folder
 
-Step 4: Open Command Prompt and Navigate to the Folder
-
-📂 In Command Prompt, type:
+Type the following command in Command Prompt:
 
 cd D:\javaprogram
 
 Step 5: Compile the Program
 
-💻 Compile your Java file using the javac command:
+Compile the Java program using:
 
 javac testjava.java
 
-
-If there are no errors, it will create a testjava.class file.
-
 Step 6: Run the Program
 
-▶️ Run your compiled Java program using:
+Run the compiled Java program:
 
 java testjava
 
 
-✅ Output:
+Output:
 
 Hello, World!
