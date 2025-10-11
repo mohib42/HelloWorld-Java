@@ -30,7 +30,7 @@ public class testjava {
 
 Important: The file name must match the class name exactly.
 
-Step 4:Open Command Prompt and navigate to your folder:
+Step 4:Open Command Prompt and navigate to my folder:
 cd D:\javaprogram
 
 Step 5: Compile the Program
