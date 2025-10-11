@@ -1,50 +1,58 @@
-# HelloWorld Java Program
+Step 1: Install Java (JDK)
 
-## Objective
-This repository contains a simple Java program (`testjava.java`) to print "Hello, World!" on the console. The steps below explain how to run it from scratch, including installing Java.
+1️⃣ Go to the Oracle JDK Download Page.
+2️⃣ Download the Windows x64 Installer for the latest LTS version.
+3️⃣ Run the installer and follow the instructions to complete the installation.
 
----
-
-## Step 1: Install Java (JDK)
-
-1. Go to the [Oracle JDK Download Page](https://www.oracle.com/java/technologies/downloads/).  
-2. Download the Windows x64 Installer for the latest LTS version.  
-3. Run the installer and follow the instructions to complete the installation.  
-
-**Check Installation:**
+✅ Check Installation:
 Open Command Prompt and type:
-```bash
 
- 
+java --version
 
-Step 2:Create a folder to save my Java program
+Step 2: Create a Folder to Save Your Java Program
+
+📁 Create a folder in any drive (for example, D: drive) and name it something like:
+
+D:\javaprogram
 
 Step 3: Write the Program
 
-Open Notepad (or any text editor) and write the following code:
+✏️ Open Notepad (or any text editor) and write the following code:
+
 public class testjava {
     public static void main(String[] args) {
         System.out.println("Hello, World!");
     }
 }
 
-Important: The file name must match the class name exactly.
 
-Step 4:Open Command Prompt and navigate to my folder:
+⚠️ Important: The file name must match the class name exactly.
+So save the file as:
+
+testjava.java
+
+Step 4: Open Command Prompt and Navigate to the Folder
+
+📂 In Command Prompt, type:
+
 cd D:\javaprogram
 
 Step 5: Compile the Program
 
-Compile the Java program using javac:
+💻 Compile your Java file using the javac command:
 
 javac testjava.java
 
+
+If there are no errors, it will create a testjava.class file.
+
 Step 6: Run the Program
 
-Run the compiled Java program:
+▶️ Run your compiled Java program using:
 
 java testjava
 
-output:Hello, World!
 
+✅ Output:
 
+Hello, World!
