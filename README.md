@@ -23,7 +23,7 @@ java --version
 
 public class testjava {
     public static void main(String[] args) {
-        System.out.println("Hello, World!");
+        System.out.println("It's a rainy day!");
     }
 }
 
@@ -41,15 +41,15 @@ cd D:\javaprogram
 
   Compile the Java program using:
 
-  javac testjava.java
+  javac mohib.java
 
 🚀 Step 6: Run the Program
 
    Run the compiled Java program:
 
-   java testjava
+   java mohib
 
 
 Output:
+It's a rainy day!
 
-Hello, World!
